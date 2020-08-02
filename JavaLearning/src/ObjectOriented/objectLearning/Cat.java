@@ -17,7 +17,7 @@ public class Cat {
 		System.out.println("无参构造方法");
 	}
 	
-	//带参构造方法
+	//带参构造方法，有一个带参的构造方法后，无法使用默认的无参构造方法，需要重新定义一个无参构造方法
 	public Cat(String name) {
 		this.name = name;
 	}

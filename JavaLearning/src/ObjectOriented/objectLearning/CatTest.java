@@ -9,7 +9,8 @@ public class CatTest {
 	public static void main(String[] args) {
 		Cat one = new Cat();
 //		Cat two = new Cat();
-		Cat two = one;
+		
+		Cat two = one;// 相当于一个新的地址
 		one.name = "狗子";
 		one.month = 3;
 		one.species = "英短";
